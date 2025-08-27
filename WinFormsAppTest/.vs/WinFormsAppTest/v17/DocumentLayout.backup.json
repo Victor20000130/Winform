@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\inno\\Desktop\\Personal\\etc\\Test\\WinformsTest\\WinFormsAppTest\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{47AE6DA4-194B-43E2-B621-6D04FF1B3A8B}|WinFormsAppTest.csproj|c:\\users\\inno\\desktop\\personal\\etc\\test\\winformstest\\winformsapptest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47AE6DA4-194B-43E2-B621-6D04FF1B3A8B}|WinFormsAppTest.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47AE6DA4-194B-43E2-B621-6D04FF1B3A8B}|WinFormsAppTest.csproj|c:\\users\\inno\\desktop\\personal\\etc\\test\\winformstest\\winformsapptest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47AE6DA4-194B-43E2-B621-6D04FF1B3A8B}|WinFormsAppTest.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47AE6DA4-194B-43E2-B621-6D04FF1B3A8B}|WinFormsAppTest.csproj|c:\\users\\inno\\desktop\\personal\\etc\\test\\winformstest\\winformsapptest\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47AE6DA4-194B-43E2-B621-6D04FF1B3A8B}|WinFormsAppTest.csproj|solutionrelative:form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{47AE6DA4-194B-43E2-B621-6D04FF1B3A8B}|WinFormsAppTest.csproj|c:\\users\\inno\\desktop\\personal\\etc\\test\\winformstest\\winformsapptest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{47AE6DA4-194B-43E2-B621-6D04FF1B3A8B}|WinFormsAppTest.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -14,8 +26,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\inno\\Desktop\\Personal\\etc\\Test\\WinformsTest\\WinFormsAppTest\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\inno\\Desktop\\Personal\\etc\\Test\\WinformsTest\\WinFormsAppTest\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T06:37:50.61Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -25,16 +51,46 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
               "DocumentMoniker": "C:\\Users\\inno\\Desktop\\Personal\\etc\\Test\\WinformsTest\\WinFormsAppTest\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\inno\\Desktop\\Personal\\etc\\Test\\WinformsTest\\WinFormsAppTest\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\inno\\Desktop\\Personal\\etc\\Test\\WinformsTest\\WinFormsAppTest\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "Form1.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-27T06:22:53.462Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-08-27T08:17:22.353Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\inno\\Desktop\\Personal\\etc\\Test\\WinformsTest\\WinFormsAppTest\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\inno\\Desktop\\Personal\\etc\\Test\\WinformsTest\\WinFormsAppTest\\Form1.Designer.cs",
+              "RelativeToolTip": "Form1.Designer.cs",
+              "ViewState": "AgIAAEQBAAAAAAAAAAAuwA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T07:49:12.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\inno\\Desktop\\Personal\\etc\\Test\\WinformsTest\\WinFormsAppTest\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\inno\\Desktop\\Personal\\etc\\Test\\WinformsTest\\WinFormsAppTest\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-27T06:31:00.602Z",
+              "EditorCaption": ""
             }
           ]
         }
