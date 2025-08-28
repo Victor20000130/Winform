@@ -30,7 +30,7 @@
         {
             components = new System.ComponentModel.Container();
             timeLabel = new Label();
-            timeLeftLabel = new Label();
+            timeLeftTitle = new Label();
             plusLeftLabel = new Label();
             plusLabel = new Label();
             plusRightLabel = new Label();
@@ -69,16 +69,16 @@
             timeLabel.Size = new Size(200, 30);
             timeLabel.TabIndex = 0;
             // 
-            // timeLeftLabel
+            // timeLeftTitle
             // 
-            timeLeftLabel.AutoSize = true;
-            timeLeftLabel.Font = new Font("맑은 고딕", 15.75F);
-            timeLeftLabel.Location = new Point(166, 10);
-            timeLeftLabel.Name = "timeLeftLabel";
-            timeLeftLabel.Size = new Size(100, 30);
-            timeLeftLabel.TabIndex = 1;
-            timeLeftLabel.Text = "Time Left";
-            timeLeftLabel.TextAlign = ContentAlignment.MiddleCenter;
+            timeLeftTitle.AutoSize = true;
+            timeLeftTitle.Font = new Font("맑은 고딕", 15.75F);
+            timeLeftTitle.Location = new Point(166, 10);
+            timeLeftTitle.Name = "timeLeftTitle";
+            timeLeftTitle.Size = new Size(100, 30);
+            timeLeftTitle.TabIndex = 1;
+            timeLeftTitle.Text = "Time Left";
+            timeLeftTitle.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // plusLeftLabel
             // 
@@ -129,6 +129,7 @@
             sum.Name = "sum";
             sum.Size = new Size(100, 39);
             sum.TabIndex = 1;
+            sum.Enter += answer_Enter;
             // 
             // difference
             // 
@@ -138,6 +139,7 @@
             difference.Name = "difference";
             difference.Size = new Size(100, 39);
             difference.TabIndex = 2;
+            difference.Enter += answer_Enter;
             // 
             // equalLabel_minus
             // 
@@ -187,6 +189,7 @@
             product.Name = "product";
             product.Size = new Size(100, 39);
             product.TabIndex = 3;
+            product.Enter += answer_Enter;
             // 
             // equalLabel_multiply
             // 
@@ -236,6 +239,7 @@
             quotient.Name = "quotient";
             quotient.Size = new Size(100, 39);
             quotient.TabIndex = 4;
+            quotient.Enter += answer_Enter;
             // 
             // equalLabel_divide
             // 
@@ -321,7 +325,7 @@
             Controls.Add(plusRightLabel);
             Controls.Add(plusLabel);
             Controls.Add(plusLeftLabel);
-            Controls.Add(timeLeftLabel);
+            Controls.Add(timeLeftTitle);
             Controls.Add(timeLabel);
             FormBorderStyle = FormBorderStyle.Fixed3D;
             MinimizeBox = false;
@@ -338,7 +342,7 @@
         #endregion
 
         private Label timeLabel;
-        private Label timeLeftLabel;
+        private Label timeLeftTitle;
         private Label plusLeftLabel;
         private Label plusLabel;
         private Label plusRightLabel;
